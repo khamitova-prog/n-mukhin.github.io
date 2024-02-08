@@ -1,5 +1,5 @@
 // Подключение к базе данных
-const mysql = require('mysql');
+import mysql from 'mysql';
 
 const connection = mysql.createConnection({
   host: "VH306.spaceweb.ru",
