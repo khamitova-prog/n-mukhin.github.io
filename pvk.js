@@ -1,6 +1,3 @@
-// Подключение к базе данных
-import mysql from 'mysql';
-
 const connection = mysql.createConnection({
   host: "VH306.spaceweb.ru",
   user: "mukhinnnik",
